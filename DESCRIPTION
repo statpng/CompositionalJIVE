@@ -1,0 +1,21 @@
+Package: CompositionalJIVE
+Title: Joint and Individual Variation Explained (JIVE) for Zero-inflated Compositional Data
+Version: 1.0.0
+Date: 2023-11-11
+Description: Joint and Individual Variation Explained (JIVE) for zero-inflated compositional data. This method estimates latent subspaces that capture both the variation common to multiple datasets (joint) and the variation unique to each dataset (individual), even in the presence of zero inflation.
+Authors@R: c(person(given = "Kipoong", family = "Kim",
+                    email = "kkp7700@gmail.com",
+                    role = c("aut", "cre")) )
+License: GPL (>= 3)
+Depends: R (>= 3.6.0), mnormt, MASS, quadprog, dirmult
+Imports: truncnorm, compositions, ggplot2, magrittr, purrr, reshape2, Rtsne, dplyr, Ternary
+Suggests: rmarkdown, testthat
+URL: http://github.com/statpng
+BugReports: http://github.com/statpng
+Packaged: 2022-11-01 22:01:59 UTC; biocbuild
+RoxygenNote: 7.3.2
+Encoding: UTF-8
+NeedsCompilation: yes
+LazyData: true
+Author: Kipoong Kim [cre] (<https://orcid.org/0000-0002-7787-2427>)
+Maintainer: Kipoong Kim <kkp7700@gmail.com>
